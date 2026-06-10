@@ -302,12 +302,12 @@ export default function HomePage() {
                   letterSpacing: '0.08em',
                 }}
               >
-                Place Main-Screen-Map.jpg in /public
+                Place Main-Screen-Map.png in /public
               </div>
             </div>
           ) : (
             <img
-              src="/Main-Screen-Map.jpg"
+              src="/Main-Screen-Map.png"
               alt="Agenthusiast HQ Map"
               onError={() => setImgError(true)}
               style={{
